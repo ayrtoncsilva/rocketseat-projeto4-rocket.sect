@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    background: #2C2B3D;
+    color: #fff;
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 101px;
+    width: 1083px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    margin-bottom: 101px;
+}
+
+section {
+    width: 1092px;
+    height: 283px;
+    left: 99px;
+}
+
+section p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #C2C2C2;
+}
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFF;
+    width: 614px;
+    padding-bottom: 20px;
+}
+
+h1 span {
+    color: #00BFA6;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #C2C2C2;
+    width: 604px;
+    right: 168px;
+}
+
+ul {
+    display: flex;
+    gap: 64px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+li:hover {
+    background: #628b7d;
+    transition: 0.10s;
+}
+
+footer {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 220px;
+    margin-bottom: 23px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.line {
+    height: 0;
+    width: 550px;
+    border: solid 1px #00BFA6;
+    margin: 0 auto 25px;
+}
+
+.padlock {
+    position: absolute;
+    width: 51px;
+    height: 62px;
+    left: 20px;
+    top: 700px;
+}
+
+
+
+
